@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginRight="30dp"
+        android:background="@drawable/input"
+        android:hint="Namba ya mtoto"
+        android:inputType="number"
+        android:padding="12dp" />
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ingia_button"
+        android:background="@drawable/input"
+        android:gravity="center"
+        android:inputType="number"
+        android:padding="12dp"
+        android:text="INGIA"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/jisajiri_btn"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="Jisjiri"
+        android:inputType="number"
+        android:padding="12dp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
