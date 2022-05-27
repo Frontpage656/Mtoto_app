@@ -60,7 +60,7 @@
                     android:layout_gravity="end"
                     android:id="@+id/next_btn"
                     android:layout_marginTop="25dp"
-                    android:background="@drawable/inputs"
+                    android:background="@drawable/input"
                     android:gravity="center"
                     android:padding="10dp"
                     android:text="Next"
