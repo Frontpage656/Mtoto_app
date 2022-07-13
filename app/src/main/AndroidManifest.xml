@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.mtoto_app">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -18,9 +20,6 @@
             android:exported="false" />
         <activity
             android:name=".Vidokezo"
-            android:exported="false" />
-        <activity
-            android:name=".Next_reg"
             android:exported="false" />
         <activity
             android:name=".Jisajiri"

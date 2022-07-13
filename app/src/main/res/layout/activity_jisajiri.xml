@@ -7,69 +7,137 @@
     android:layout_height="match_parent"
     tools:context=".Jisajiri">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="240dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
 
-            <LinearLayout
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/mtoto_id"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="170dp"
-                android:padding="20dp">
+                android:layout_height="72dp"
+                android:textSize="19dp"
+                android:background="@drawable/inputs"
+                android:hint="namba ya mtoto aliyopewa"
+                android:padding="15dp" />
 
 
-                <EditText
-                    android:id="@+id/mtoto_name"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/inputs"
-                    android:hint="Jina la mtoto"
-                    android:padding="15dp" />
+            <EditText
+                android:id="@+id/mama_name"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:textSize="19dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/inputs"
+                android:hint="Jina la mama/Mlezi"
+                android:padding="15dp" />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="25dp"
-                    android:background="@drawable/inputs"
-                    android:hint="Jina la mtoto"
-                    android:padding="15dp"
+            <EditText
+                android:id="@+id/baba_name"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:textSize="19dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/inputs"
+                android:hint="Jina la Baba/Mlezi"
+                android:padding="15dp"
 
-                    />
+                />
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="25dp"
-                    android:background="@drawable/inputs"
-                    android:hint="Jina la mtoto"
-                    android:padding="15dp"
+            <EditText
+                android:id="@+id/mtoto_date"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginTop="30dp"
+                android:textSize="19dp"
+                android:background="@drawable/inputs"
+                android:hint="Tarehe ya mtoto ya kuzaliwa"
+                android:padding="15dp"
+                />
 
-                    />
+            <EditText
+                android:id="@+id/mimba_umri"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginTop="30dp"
+                android:textSize="19dp"
+                android:background="@drawable/inputs"
+                android:hint="Umri wa mimba"
+                android:padding="15dp"
 
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="25dp"
-                    android:background="@drawable/inputs"
-                    android:hint="Jina la mtoto"
-                    android:padding="15dp"
+                />
 
-                    />
+            <EditText
+                android:id="@+id/mtoto_uzito"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"
+                android:background="@drawable/inputs"
+                android:hint="Uzito(kg)"
+                android:padding="15dp" />
 
-                <TextView
-                    android:layout_width="140dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="end"
-                    android:id="@+id/next_btn"
-                    android:layout_marginTop="25dp"
-                    android:background="@drawable/input"
-                    android:gravity="center"
-                    android:padding="10dp"
-                    android:text="Next"
-                    android:textColor="@color/purple_500"
-                    android:textStyle="bold" />
+            <EditText
+                android:id="@+id/mtoto_urefu"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:textSize="18dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/inputs"
+                android:hint="Urefu(cm)"
+                android:padding="15dp"
+
+                />
+
+            <EditText
+                android:id="@+id/mzingo"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:textSize="18dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/inputs"
+                android:hint="Mzigo wa kichwa(cm)"
+                android:padding="15dp"
+                />
+
+            <EditText
+                android:id="@+id/wengapi"
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/inputs"
+                android:hint="Wangapi kuzaliwa"
+                android:padding="15dp"
+
+                />
+
+            <TextView
+                android:id="@+id/reg_btn"
+                android:layout_width="150dp"
+                android:layout_height="53dp"
+                android:layout_gravity="end"
+                android:textSize="19dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/input"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="JISAJIRI"
+                android:textColor="@color/purple_500"
+                android:textStyle="bold" />
 
 
 
-            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
 
 
 </LinearLayout>

@@ -1,6 +1,7 @@
 package com.example.mtoto_app;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -8,6 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        if (Build.VERSION.SDK_INT >= 21) {
+            getWindow().setNavigationBarColor(ContextCompat.getColor(this, R.color.purple_700));
+        }
+
+
         ingia_button = findViewById(R.id.ingia_button);
         jisajiri_btn = findViewById(R.id.jisajiri_btn);
         mtoto_number = findViewById(R.id.mtoto_number);
@@ -27,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (!mtoto_number.getText().toString().equals("")) {
-                    if (mtoto_number.getText().toString().equals("123")) {
+                    if (mtoto_number.getText().toString().equals("12") || mtoto_number.getText().toString().equals("10") || mtoto_number.getText().toString().equals("25") || mtoto_number.getText().toString().equals("31") || mtoto_number.getText().toString().equals("4")) {
                         startActivity(new Intent(getApplicationContext(), Home.class));
                         finish();
                     }else {

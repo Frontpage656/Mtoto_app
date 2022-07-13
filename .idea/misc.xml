@@ -3,13 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/drawable/bg_form.xml" value="0.1045" />
         <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/drawable/input.xml" value="0.1345" />
         <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/drawable/inputs.xml" value="0.1775" />
+        <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/drawable/jisajiri.xml" value="0.21" />
         <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/layout/activity_home.xml" value="0.21041666666666667" />
         <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/layout/activity_jisajiri.xml" value="0.22447916666666667" />
         <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/layout/activity_next_reg.xml" value="0.22447916666666667" />
         <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/layout/activity_vidokezo.xml" value="0.22447916666666667" />
+        <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/layout/fragment_urefu.xml" value="0.21041666666666667" />
+        <entry key="..\:/Android Projects/Mtoto_app/app/src/main/res/layout/fragment_uzito.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>

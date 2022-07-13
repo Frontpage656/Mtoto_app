@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="250dp"
         android:orientation="vertical"
         android:padding="10dp">
 
@@ -19,12 +19,12 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="187dp"
+                android:layout_width="256dp"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:text="Uzito wa kuzaliwa chini ya kilo 2.5"
                 android:textColor="@color/white"
-                android:textSize="18dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -57,7 +57,7 @@
                 android:gravity="center_vertical"
                 android:text="Mtoto wa tano au zaidi"
                 android:textColor="@color/white"
-                android:textSize="18dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -90,7 +90,7 @@
                 android:gravity="center_vertical"
                 android:text="Pacha?"
                 android:textColor="@color/white"
-                android:textSize="18dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -123,7 +123,7 @@
                 android:gravity="center_vertical"
                 android:text="Yatima?"
                 android:textColor="@color/white"
-                android:textSize="18dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -152,12 +152,12 @@
             android:orientation="horizontal">
 
             <TextView
-                android:layout_width="187dp"
+                android:layout_width="253dp"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:text="Vifo vya nduguze chini ya miaka mitano"
                 android:textColor="@color/white"
-                android:textSize="18dp"
+                android:textSize="20dp"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -182,10 +182,12 @@
         <TextView
             android:id="@+id/maliza_btn"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="35dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="50dp"
             android:background="@drawable/input"
             android:gravity="center"
+            android:letterSpacing=".3"
+            android:textSize="20dp"
             android:padding="15dp"
             android:text="MALIZA"
             android:textColor="@color/purple_500"
