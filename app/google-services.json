@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "507248178173",
+    "project_id": "mtoto-app-43ad7",
+    "storage_bucket": "mtoto-app-43ad7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507248178173:android:ca477fa0eebf660f1b1f94",
+        "android_client_info": {
+          "package_name": "com.example.mtoto_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507248178173-jc8ef012um9eba300ijd2a0mc01sa9fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfaxNErv8x2CG15LryDOhRYnh9U7dpTBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507248178173-jc8ef012um9eba300ijd2a0mc01sa9fn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
